@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Calculator</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <div class="calculator">
-        <h2>PHP Calculator</h2>
+        <h2>Calculator</h2>
         <form action="" method="post">
-            <input type="text" name="num1" placeholder="Enter number 1" required>
-            <input type="text" name="num2" placeholder="Enter number 2" required>
-            <select name="operation" required>
+            <div>
+                <label for="num1">Enter first number:</label>
+                <input type="text" name="num1" placeholder="Enter number 1" required>
+            </div>
+            <div>
+                <label for="num2">Enter second number:</label>
+                <input type="text" name="num2" placeholder="Enter number 2" required>
+            </div>
+            <div>
+                <label for="operator">Select operator:</label>
+                <select name="operation" required>
                 <option value="add">Addition</option>
                 <option value="subtract">Subtraction</option>
                 <option value="multiply">Multiplication</option>
@@ -24,6 +30,7 @@
                 <option value="sqrt">Square Root</option>
                 <option value="log">Logarithm</option>
             </select>
+            </div>
             <button type="submit" name="submit">Calculate</button>
         </form>
     </div>

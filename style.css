@@ -1,10 +1,12 @@
 .calculator {
-    width: 300px;
+    width: 500px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    font: 1em sans-serif;
 }
 
 .calculator h2 {
@@ -24,7 +26,7 @@
 }
 
 .calculator button {
-    background-color: #007bff;
+    background-color: burlywood;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -32,5 +34,5 @@
 }
 
 .calculator button:hover {
-    background-color: #0056b3;
+    background-color: beige;
 }
